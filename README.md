@@ -1,6 +1,14 @@
-# loooop-shop
+# loooop
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple adaptive store website page
+HTML | CSS | SCSS | Vue
+
+<div align="center">
+<img width="280" alt="desktopScreen" src="public/webScreen1.jpg"> </img>
+<img width="225" alt="mobileScreen" src="public/webScreen2.gif"> </img>
+
+</div>
+
 
 ## Recommended IDE Setup
 
