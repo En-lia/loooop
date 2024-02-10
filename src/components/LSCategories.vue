@@ -117,6 +117,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/styles/variables.scss';
+
 .categories {
     &__panel {
         display: flex;
@@ -124,6 +126,7 @@ export default {
         flex-wrap: wrap;
         gap: 40px;
         margin-top: 45px;
+        color: $black-deep;
     }
 
     &__buttons {
@@ -164,6 +167,7 @@ export default {
 
         &__buttons {
             min-width: 620px;
+            max-height: 41px;
             position: relative;
             gap: 16px;
         }

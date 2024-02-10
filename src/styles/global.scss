@@ -3,10 +3,6 @@
 html {
   font-family: "GolosTextVF", "Arial", sans-serif;
 
-  & a, a:link, {
-    color: $gray-light;
-  }
-
   & a:hover {
     color: $green;
   }
