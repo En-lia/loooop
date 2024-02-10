@@ -4,10 +4,15 @@
         <div class="categories__panel">
             <div class="categories__buttons-wrapper">
                 <div class="categories__buttons">
-                    <UIButton active> Все категории </UIButton>
-                    <UIButton> Микрофоны </UIButton>
-                    <UIButton> Акустика </UIButton>
-                    <UIButton> Наушники </UIButton>
+                    <UIButton
+                        class="categories__button"
+                        active
+                    >
+                        Все категории
+                    </UIButton>
+                    <UIButton class="categories__button"> Микрофоны </UIButton>
+                    <UIButton class="categories__button"> Акустика </UIButton>
+                    <UIButton class="categories__button"> Наушники </UIButton>
                 </div>
             </div>
 
@@ -126,12 +131,15 @@ export default {
         flex-wrap: wrap;
         gap: 40px;
         margin-top: 45px;
-        color: $black-deep;
     }
 
     &__buttons {
         display: flex;
         gap: 24px;
+    }
+
+    &__button {
+        color: $black-deep;
     }
 
     &__sort {
@@ -166,8 +174,7 @@ export default {
         }
 
         &__buttons {
-            min-width: 620px;
-            max-height: 41px;
+            min-width: 700px;
             position: relative;
             gap: 16px;
         }
@@ -181,8 +188,10 @@ export default {
         }
 
         &__sort {
+            width: 100%;
+
             & .ui-select__container {
-                min-width: auto;
+                min-width: 100%;
             }
         }
     }

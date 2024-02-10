@@ -49,6 +49,7 @@ export default {
     outline: none;
     cursor: pointer;
     font-size: 16px;
+    color: $black-deep;
 
     &::-ms-expand {
         display: none;

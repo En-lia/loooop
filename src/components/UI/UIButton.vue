@@ -2,6 +2,7 @@
     <button
         class="ui-button"
         :class="{ 'ui-button_active': active, 'ui-button_disabled': disabled }"
+        v-bind="$attrs"
     >
         <slot></slot>
     </button>
