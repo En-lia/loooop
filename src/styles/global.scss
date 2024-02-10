@@ -1,0 +1,32 @@
+@import './variables.scss';
+
+html {
+  font-family: "GolosTextVF", "Arial", sans-serif;
+
+  & a, a:link, {
+    color: $gray-light;
+  }
+
+  & a:hover {
+    color: $green;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 36px;
+    color: $black;
+  }
+
+  @media (max-width: 1100px) {
+    h2 {
+      font-size: 24px;
+    }
+  }
+}
+
+body {
+  &.disable-scroll{
+    overflow: hidden;
+  }
+}
+
