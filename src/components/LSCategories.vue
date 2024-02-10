@@ -31,6 +31,15 @@
 import UIButton from '@/components/UI/UIButton.vue';
 import UISelect from '@/components/UI/UISelect.vue';
 import LSCard from '@/components/LSCard.vue';
+import product1 from '../assets/images/product-1.svg';
+import product2 from '../assets/images/product-2.svg';
+import product3 from '../assets/images/product-3.svg';
+import product4 from '../assets/images/product-4.svg';
+import product5 from '../assets/images/product-5.svg';
+import product6 from '../assets/images/product-6.svg';
+import product7 from '../assets/images/product-7.svg';
+import product8 from '../assets/images/product-8.svg';
+
 export default {
     name: 'LSCategories',
     components: { LSCard, UISelect, UIButton },
@@ -40,50 +49,50 @@ export default {
                 {
                     description:
                         'Микрофон “СОЮЗ Malfa”, производства фирмы Октава',
-                    imgUrl: 'src/assets/images/product-1.svg',
+                    imgUrl: product1,
                     price: '265 900₽',
                     status: 'new'
                 },
                 {
                     description: 'Акустическая система Magnat Transpuls 800A',
-                    imgUrl: 'src/assets/images/product-2.svg',
+                    imgUrl: product2,
                     price: '62 070₽',
                     status: null
                 },
                 {
                     description:
                         'Микрофон “СОЮЗ Boomblet”, производства фирмы Октава',
-                    imgUrl: 'src/assets/images/product-3.svg',
+                    imgUrl: product3,
                     price: '72 100₽',
                     status: 'new'
                 },
                 {
                     description: 'Наушники CCA C10 Black With mic',
-                    imgUrl: 'src/assets/images/product-4.svg',
+                    imgUrl: product4,
                     price: '125 300₽',
                     status: 'new'
                 },
                 {
                     description: 'Наушники Edifier HECATE G5BT black',
-                    imgUrl: 'src/assets/images/product-5.svg',
+                    imgUrl: product5,
                     price: '11 900₽',
                     status: null
                 },
                 {
                     description: 'Микрофон "Lewitt LCT540SUBZERO"',
-                    imgUrl: 'src/assets/images/product-6.svg',
+                    imgUrl: product6,
                     price: '25 170₽',
                     status: null
                 },
                 {
                     description: 'Полочная акустика Klipsch RP-500M II walnut',
-                    imgUrl: 'src/assets/images/product-7.svg',
+                    imgUrl: product7,
                     price: '1 100₽',
                     status: null
                 },
                 {
                     description: 'RODE XCM-50 usb',
-                    imgUrl: 'src/assets/images/product-8.svg',
+                    imgUrl: product8,
                     price: '13 455₽',
                     status: 'new'
                 }
